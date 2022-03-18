@@ -129,3 +129,26 @@ td:hover {
         transform: scale(1);
     }
 }
+
+@media (max-width: 448px) {
+    td {
+        width: 100px;
+        height: 100px;
+    }
+
+    .xo {
+        width: 60px;
+        height: 60px;
+        left: 20px;
+        top: 20px;
+    }
+
+    .player-panel img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .player-panel div {
+        font-size: 22px;
+    }
+}
